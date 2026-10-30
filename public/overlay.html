@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HintJar Overlay</title><link rel="stylesheet" href="/style.css"></head>
+<body class="overlay-body">
+  <main class="overlay-wrap">
+    <section class="jar-panel" aria-label="Hint jar">
+      <div class="brand"><span class="brand-mark">H</span><span>HINTJAR</span></div>
+      <div class="jar-stage"><div class="jar-shadow"></div><div class="jar-lid"></div><div class="jar-glass"><div class="jar-glint"></div><div id="fill" class="jar-fill"></div><div class="jar-label">HINTS<br><small>FOR LATER</small></div><div id="corks" class="corks"></div></div></div>
+      <div id="counter" class="counter">0 hints sealed</div>
+      <div id="status" class="connection">Connecting…</div>
+    </section>
+    <section id="card" class="hint-card" aria-live="polite"><div class="card-icon">💡</div><div class="card-kicker">OUT OF THE JAR</div><div id="hint-text" class="hint-text"></div><div id="hint-credit" class="hint-credit"></div></section>
+  </main>
+  <script src="/overlay.js"></script>
+</body></html>

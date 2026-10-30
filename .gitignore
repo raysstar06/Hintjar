@@ -147,3 +147,8 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# HintJar local secrets and data
+.env
+tokens.json
+jar.json
